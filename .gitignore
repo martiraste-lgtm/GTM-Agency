@@ -1,0 +1,23 @@
+# Credenziali e dati sensibili
+.env
+*.credentials.json
+*.key
+api-keys.md
+credentials/
+
+# Liste contatti e dati CRM (non versionare — dati personali)
+outbound/account-research/*.csv
+outbound/campaigns/**/*.csv
+contacts/
+
+# Cache e file temporanei
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Output di sessione Claude (opzionale — si può versionare se utile)
+# outputs/
+
+# Pricing e condizioni commerciali (non pubblici)
+# preventivo/references/pricing.md
