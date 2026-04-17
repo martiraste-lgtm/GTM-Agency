@@ -2,7 +2,7 @@
 
 ## Il collettivo
 
-[NOME COLLETTIVO] è un collettivo di 4 specialisti indipendenti (P.I.) che lavorano in modo integrato su un unico engagement.
+Siamo 4 specialisti indipendenti (P.I.) che lavorano in modo integrato su un unico engagement. Nessun nome di brand ancora — operiamo come collettivo.
 
 **Non siamo un'agenzia**: nessun overhead, nessun account manager, nessun junior che esegue. Lavori con le stesse 4 persone dall'analisi all'esecuzione.
 
@@ -21,17 +21,28 @@ Un servizio end-to-end che parte dall'analisi e arriva all'esecuzione operativa:
 
 ## Competenze del team
 
-[DA COMPLETARE — aggiungere le 4 persone con rispettive aree di expertise]
+| Ruolo | Expertise principale |
+|-------|----------------------|
+| PMM Senior #1 | Strategia, positioning, GTM, competenze da CMO e product manager |
+| PMM Senior #2 | Strategia, positioning, GTM, messaging |
+| PMM Junior | Execution, supporto campagne e asset |
+| Sales / GTM Engineer | GTM engineering, outreach with signals, sequenze |
+
+Ci conosciamo da anni, ma ognuno ha sempre lavorato in autonomia. Questo è il primo servizio comune.
 
 ## Clienti tipo
 
-- Startup B2B, early stage e growth (pre-PMF → 2M ARR)
-- Settori: tech/SaaS, ma non esclusivamente
+- Startup B2B SaaS — pre-seed, seed, serie A
+- **Soglia minima**: 8K MRR oppure funding di almeno 200K già raccolto
+- Settori dove abbiamo track record individuale: travel, HR, healthcare, gaming, cosmetica (sempre B2B SaaS)
 - Situazione tipica: trazione iniziale ma pipeline dipendente da referral/rete diretta, senza sistema di acquisizione ripetibile
+- Trigger tipici: round chiuso, transizione da founder-led growth, round del competitor, stallo di pipeline
 
 ## Risultati che produciamo
 
-[DA COMPLETARE con i primi case study]
+Case study collettivi: nessuno ancora — sistema in fase beta.
+I singoli membri del team hanno track record individuali nei rispettivi settori.
+→ Aggiornare con i primi risultati condivisi non appena disponibili.
 
 ## Differenziatori chiave
 
@@ -40,3 +51,12 @@ Un servizio end-to-end che parte dall'analisi e arriva all'esecuzione operativa:
 3. **Analisi → asset**: ogni insight diventa materiale operativo, non un doc che nessuno rilegge
 4. **Contenuto gestito**: non consegniamo un piano editoriale, gestiamo il canale
 5. **Team integrato**: strategia, outbound e contenuto sono coordinati, non siloed
+
+## Fuori scope
+
+Non facciamo e non gestiamo:
+- Siti web (sviluppo o redesign)
+- Advertising / campagne paid
+- Sviluppo app o prodotto
+- Video production
+- Social media management (altri canali oltre LinkedIn)

@@ -6,51 +6,51 @@
 
 ## ICP Primario
 
-**Startup B2B early stage → early growth**
+**Startup B2B SaaS — pre-seed, seed, serie A**
 
 | Criterio | Dettaglio |
 |----------|-----------|
-| Fase | Post-idea, pre o post-PMF iniziale (100K–2M ARR) |
+| Fase | Pre-seed, Seed, Serie A |
+| Soglia minima | 8K MRR oppure funding ≥ 200K già raccolto |
+| Settori (track record) | Travel, HR, healthcare, gaming, cosmetica — sempre B2B SaaS |
 | Modello | B2B, cicli di vendita medi (2-8 settimane) |
-| Team | 2-15 persone, founder ancora coinvolto nelle vendite |
+| Team | 2-20 persone, founder ancora coinvolto nelle vendite |
 | Problema | Pipeline dipendente da referral/rete, no sistema di acquisizione ripetibile |
 | GTM attuale | Zero o quasi: no outbound strutturato, no content, no CRM vero |
-| Budget | Disposto a investire 2K-6K/mese su GTM operativo |
+| Budget beta | 2.500-3.000 €/mese (target: 5.000 €/mese) |
 
 ---
 
 ## Tier A (priorità massima)
 
 **Criteri di inclusione:**
-- ARR tra 300K e 2M (trazione provata ma ancora in fase di costruzione)
-- Almeno 3 clienti paganti (non solo pilot gratuiti)
+- Supera soglia minima (8K MRR o 200K+ funding)
 - Founder disponibile per call settimanale
 - Nessun team GTM interno strutturato
 - Mercato B2B con ciclo di vendita medio (non enterprise puro)
 
-**Trigger di urgenza (almeno uno):**
-- Round appena chiuso o in chiusura (necessità di mostrare crescita)
-- Pressione da investor su pipeline e metriche
-- Scadenza entro 3-6 mesi (lancio, hiring, espansione mercato)
-- Competitor che sta crescendo sul loro stesso mercato
+**Trigger di urgenza (almeno uno — fonte primaria per signaling):**
+- Round appena chiuso → necessità di mostrare crescita agli investor
+- Transizione da founder-led growth alla fase successiva (primo sales, RevOps, ecc.)
+- Round del competitor → pressione per rispondere con pipeline propria
+- Stallo: pipeline ferma da 1-2 trimestri, metodo attuale non scala
 
 ---
 
 ## Tier B (priorità media)
 
-- ARR tra 100K e 300K (early stage, PMF ancora da consolidare)
-- 1-3 clienti paganti, trazione presente ma volatile
+- Supera soglia minima ma senza trigger urgente attivo
 - Founder con poco tempo disponibile
-- Budget più contenuto (1.5K-3K/mese)
+- Meno urgenza: monitorare, contattare in cicli più lunghi
 
 ---
 
 ## Tier C (bassa priorità / valutare caso per caso)
 
-- Pre-revenue o idea stage (no trazione, no validazione)
-- ARR oltre 2M con team GTM già strutturato (non hanno bisogno di noi)
-- Solo B2C (fuori scope)
+- Sotto soglia minima (< 8K MRR E < 200K funding) senza segnali forti
+- Solo B2C consumer (fuori scope)
 - Enterprise puro con cicli di vendita oltre 6 mesi (non adatto all'outbound con signals)
+- Team GTM già strutturato (non hanno bisogno di noi)
 
 ---
 
@@ -58,7 +58,7 @@
 
 - Aziende che vogliono solo "qualche lead" senza interesse per sistema e metodo
 - Founder che non può/vuole dedicare tempo alle call settimanali
-- Settori con vincoli normativi che impediscono cold outreach (alcuni settori finance, healthcare regolamentato)
+- Settori con vincoli normativi severi che bloccano il cold outreach B2B (es. finance regolamentato, pharma con compliance restrittiva) — il healthcare generico va bene
 - Aziende che hanno appena firmato con un'altra agenzia di lead gen
 - Aziende con NDA che impedisce di citarle come case study
 
@@ -68,9 +68,9 @@
 
 | Persona | Ruolo | Pain principale |
 |---------|-------|-----------------|
-| CEO/Co-founder | Decisore finale | Vuole pipeline prevedibile, non dipendere da referral |
-| Head of Sales | Influencer chiave | Vuole lead qualificati, non solo volume |
-| CRO | Decisore in aziende più strutturate | Vuole un sistema GTM scalabile |
+| CEO/Co-founder | **Firma il contratto** — decisore finale | Vuole pipeline prevedibile, non dipendere da referral |
+| Product Manager | Sponsor interno — può spingere per il sì | Sente il problema operativamente, conosce i buyer reali |
+| CMO | Sponsor interno in aziende più strutturate | Vuole sistema GTM integrato, non solo outbound isolato |
 
 ---
 
@@ -78,13 +78,15 @@
 
 | Criterio | Punti |
 |----------|-------|
-| ARR 300K-2M | +20 |
-| ARR 100K-300K | +10 |
+| Supera soglia minima (8K MRR o 200K+ funding) | +15 |
 | B2B con ciclo vendita medio | +15 |
 | Founder fa ancora sales | +10 |
 | No team GTM interno | +10 |
-| Trigger di urgenza presente | +20 |
-| Traction visibile (hiring, PR, funding) | +10 |
+| Trigger urgente presente (round, stallo, competitor) | +25 |
+| Hiring commercial / RevOps visibile | +15 |
+| Settore con track record del team | +10 |
 | Anti-ICP match (uno qualsiasi) | -50 |
 
 **Soglie**: Tier A = 60+, Tier B = 35-59, Tier C = sotto 35
+
+*Nota: sotto la soglia minima, non contattare — a meno di segnale eccezionalmente forte (round appena chiuso, founder in lista diretta, referral da fiducia).*

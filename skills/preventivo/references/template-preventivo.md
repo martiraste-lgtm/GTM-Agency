@@ -6,7 +6,7 @@
 ---
 
 # PREVENTIVO — GTM Engineering, Outbound with Signals & Content
-*[NOME COLLETTIVO]*
+*[nome collettivo — da aggiungere quando definito]*
 
 ---
 
@@ -183,7 +183,7 @@ Sett. 21-24 │ EVALUATE  │ Review complessiva · Decisione prosecuzione / aut
 - Fine mese 3 — revisione su dati reali, aggiustamento ICP e segmenti
 - Fine mese 6 — valutazione prosecuzione o autonomia operativa
 
-**[INVESTIMENTO MENSILE]**: [DA INSERIRE]
+**[INVESTIMENTO MENSILE]**: [DA INSERIRE — range di riferimento interno: 2.500-3.000 €/mese in fase beta; target 5.000 €/mese a regime. Inserire il numero concordato con il cliente, non il range.]
 
 ---
 

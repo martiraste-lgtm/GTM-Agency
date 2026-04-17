@@ -14,7 +14,7 @@ Non siamo un'agenzia di outbound classica. Non partiamo dalle campagne. Partiamo
 
 **Il modello**: analisi → asset operativi → outbound with signals → contenuto → iterazione continua.
 
-**Target clienti**: startup B2B, early stage e growth (pre-PMF → 2M ARR), settori tech e non-tech.
+**Target clienti**: startup B2B SaaS, pre-seed → serie A. Soglia minima: 8K MRR oppure funding ≥ 200K. Settori con track record: travel, HR, healthcare, gaming, cosmetica.
 
 ---
 
@@ -83,11 +83,13 @@ Il processo opera su 4 livelli in parallelo:
 
 ## Stato corrente
 
-**Data ultimo aggiornamento**: [DATA]
-**ICP prioritario**: [da completare]
-**Campagne attive**: [da completare]
-**Segnali più performanti**: [da completare — vedi `knowledge/signals/confirmed.md`]
-**Next actions**: [da completare]
+**Data ultimo aggiornamento**: 2026-04-17
+**Fase**: Sistema in setup — nessuna campagna attiva ancora
+**ICP prioritario**: Startup B2B SaaS (pre-seed/seed/serie A) con trigger round o stallo pipeline, settori travel/HR/healthcare/gaming/cosmetica, min. 8K MRR o 200K+ funding
+**Campagne attive**: nessuna
+**Segnali più performanti**: da popolare — vedi `knowledge/signals/confirmed.md`
+**Pricing beta**: 2.500-3.000 €/mese | target: 5.000 €/mese
+**Next actions**: avviare primo outbound su noi stessi, raccogliere dati campagna 1, fare brain-update dopo 2-4 settimane
 
 ---
 
