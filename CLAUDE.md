@@ -72,6 +72,14 @@ Il processo opera su 4 livelli in parallelo:
 | `sales-deck-creator` | Deck commerciale cliente |
 | `case-study-creator` | Dopo il primo risultato misurabile |
 | `okr-hybrid` | Definire KPI con il cliente (uso interno) |
+| `mkt1/marketing-strategy-setup` | Inizio engagement — orchestra tutte le skill MKT1 |
+| `mkt1/company-overview` | Fondamenta: stage, modello, audience, competitive landscape |
+| `mkt1/marketing-advantages` | Identifica i vantaggi marketing unici del business |
+| `mkt1/perceptions` | Definisce le 3-4 narrative strategiche del mercato |
+| `mkt1/channel-strategy` | Determina il channel mix giusto per stage e GTM motion |
+| `mkt1/revenue-levers` | Prioritizza dove il marketing può avere impatto adesso |
+| `mkt1/big-bets` | Progetta 1-3 campagne coordinate ad alto impatto |
+| `mkt1/gaccs` | Brief operativo per ogni campagna o iniziativa |
 
 ---
 

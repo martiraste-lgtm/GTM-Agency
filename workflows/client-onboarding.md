@@ -71,10 +71,23 @@ Claude ricerca automaticamente:
 
 ---
 
-## Step 4 — Positioning Sprint (Settimana 1-2)
+## Step 4 — Analisi strategica (Settimana 1-2)
 
-Esegui `skills/b2b-positioning-diagnostic/` con il cliente:
+Esegui le skill MKT1 in sequenza con il cliente. Ogni skill alimenta la successiva.
 
+```
+Read skills/mkt1/marketing-strategy-setup/SKILL.md
+```
+
+**Sequenza consigliata:**
+
+1. `mkt1/company-overview` — documenta stage, modello, audience, competitive
+2. `mkt1/marketing-advantages` — identifica i vantaggi unici del loro marketing
+3. `mkt1/perceptions` — definisce le 3-4 narrative strategiche
+4. `mkt1/channel-strategy` — determina il channel mix giusto per questo cliente
+5. `mkt1/revenue-levers` — prioritizza dove agire subito
+
+**In parallelo (o dopo):**
 ```
 Read skills/b2b-positioning-diagnostic/SKILL.md e facilita il positioning sprint per [nome cliente]
 ```
