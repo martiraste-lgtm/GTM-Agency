@@ -1,89 +1,137 @@
 ---
 name: mkt1-marketing-advantages
-description: Identifica i Marketing Advantages unici del business — le risorse, capacità o posizioni che rendono il marketing di questa azienda più efficace di quello dei competitor. Non sono vantaggi generici: sono specifici, difficili da copiare, e cambiano quali canali e tattiche funzionano. Trigger: "marketing advantages", "cosa ci rende unici nel marketing", "vantaggi competitivi marketing", "perché il nostro marketing funziona meglio", "mkt1 advantages".
+description: Identifica i Marketing Advantages del business — le dinamiche nel prodotto, nel business model o nel mercato che, se sfruttate, accelerano la crescita in modo slealmente efficace. Framework originale MKT1 con 9 advantage in 3 categorie. Trigger: "marketing advantages", "cosa ci rende unici nel marketing", "vantaggi competitivi marketing", "perché il nostro marketing funziona meglio", "mkt1 advantages".
 license: MIT
 metadata:
   author: GTM Collective (adattato da framework MKT1 — Emily Kramer / Kathleen Estreich)
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 ## Overview
 
-I Marketing Advantages sono la risposta alla domanda: "Cosa rende il marketing di questa azienda *slealmente* efficace rispetto ai competitor?" Non è positioning — è un inventario di asset reali che il marketing può sfruttare. Chi li identifica bene sa dove investire il tempo e il budget. Chi li ignora replica playbook generici e ottiene risultati medi.
+I Marketing Advantages sono "dinamiche nel business, nel prodotto o nel mercato di un'azienda che, quando sfruttate, guidano la crescita in modo intrinseco." Non sono punti di differenziazione generici — sono asset reali che rendono il marketing più efficace di quello dei competitor, spesso in modo difficile da copiare.
+
+Principio critico: **senza Marketing Advantages, una startup non può vincere nel marketing**. Se non ne hai, devi aggiustare il prodotto, la business strategy o l'approccio GTM.
 
 Prerequisito: `mkt1_company_overview` completato.
 Output: aggiorna `context/positioning.md` con la sezione Marketing Advantages.
 
 ---
 
+## I 9 Marketing Advantages (framework MKT1)
+
+### Categoria 1 — Product-Led Growth
+
+**1. Network Effects o Product Virality**
+- **Virality**: gli utenti condividono il prodotto internamente o esternamente come parte naturale dell'uso
+- **Network effects**: il prodotto diventa più utile all'aumentare degli utilizzatori (advantage più forte della virality)
+- Esempio: Slack (network effects interni), Calendly (virality esterna)
+
+**2. Free Plan o Trial**
+Il prodotto ha una versione gratuita che permette agli utenti di sbloccare valore prima dell'acquisto. Richiede un "trigger" di conversione a pagamento (scadenza tempo, limite utenti, feature gate). Fondamentale che il free plan non canibalizzi il paid.
+
+**3. Wedge into a Larger Market**
+Il prodotto entra in un segmento specifico (nicchia) con l'obiettivo di conquistare un mercato più ampio nel tempo. Richiede un piano di espansione dal wedge iniziale verso altri audience o use case. Vedi: Carta (cap table → equity management), Stripe (API developer → fintech infrastruttura).
+
+---
+
+### Categoria 2 — Market / Ecosystem
+
+**4. Integrations / Co-Marketing**
+Il prodotto ha partner naturali nell'ecosistema — e questo crea opportunità di co-marketing. Si può sfruttare la distribuzione dei partner anche senza collaborazione diretta (es. content marketing sui loro prodotti, presence nelle loro marketplace).
+
+**5. Channel Partnerships & Sales**
+È possibile far sì che altri attori dell'ecosistema promuovano o vendano il prodotto in cambio di commissioni, referral bonus o sconti. Richiede incentivazione dei partner e materiali di enablement marketing dedicati.
+
+**6. Forcing Function: Trend o Regolamentazioni**
+Dinamiche esterne che creano urgenza d'acquisto naturale. I trend di mercato (es. adozione AI, crisi finanziarie) rendono il messaging più rilevante. Le nuove regolamentazioni sono forcing function ancora più potenti perché creano scadenze non negoziabili.
+
+---
+
+### Categoria 3 — Brand & Story
+
+**7. Audience che cerca Community o Contenuto Educativo**
+Il pubblico target è sottodotato di contenuti educativi di qualità o di spazi di connessione tra pari. Trattare community e content marketing come un "prodotto" — non come tattiche — per costruire crescita top-of-funnel organica e difendibile.
+
+**8. Founder Story o Founder/Market Fit**
+Il founder ha già relazioni, credibilità o personal brand consolidati con il target audience. I founder con following esistenti diventano canali di distribuzione diretti. Questo advantage è difficile da forzare — o esiste o non esiste.
+
+**9. Capacità di Creare/Possedere una Categoria**
+Il prodotto occupa uno spazio completamente nuovo, non sostituendo prodotti esistenti ma definendo una nuova categoria. Se il brand diventa sinonimo della categoria (es. "fare Zoom"), il vantaggio competitivo è strutturale.
+
+---
+
 ## Instructions
 
-### Step 1 — Inventario degli asset di marketing
+### Step 1 — Inventario
 
-Passa in rassegna queste 10 categorie di Marketing Advantages. Per ognuna, chiedi: "Ce l'abbiamo? In che misura? È difficile da copiare?"
+Per ognuno dei 9 advantage, chiedi: "Ce l'abbiamo? In che forma? È reale (non solo desiderato)?"
 
-| Categoria | Domanda diagnostica |
-|-----------|---------------------|
-| **Distribuzione** | Hai un canale di distribuzione unico o privilegiato? (partner, marketplace, community propria) |
-| **Dati proprietari** | Hai accesso a dati che altri non hanno e che puoi usare per messaggi più rilevanti? |
-| **Brand e reputazione** | Il tuo brand è già riconosciuto nel segmento? Hai founder con visibilità pubblica? |
-| **Community** | Hai una community attiva di utenti, prospects o partner che amplificherà i tuoi messaggi? |
-| **Ecosistema / integrazioni** | Stai dentro un ecosistema (es. Salesforce, Slack, Shopify) con access privilegiato? |
-| **Effetti di rete** | Il prodotto diventa più utile con più utenti? Questo crea referral naturali? |
-| **Expertise di categoria** | Hai thought leadership reale nel settore? Il founder è una voce riconosciuta? |
-| **Contenuto / SEO** | Hai già asset di contenuto che portano traffico o credibilità? |
-| **Velocità e agilità** | Sei più veloce dei competitor nel rispondere ai trend di mercato? |
-| **Modello di pricing / accesso** | Il tuo modello (freemium, trial, open source) ti dà un vantaggio di acquisizione? |
+Usa questa griglia:
 
-### Step 2 — Prioritizzazione
+| Advantage | Presente? | Forza (1-3) | Sfruttato ora? | Note |
+|-----------|-----------|-------------|----------------|------|
+| Network Effects / Virality | | | | |
+| Free Plan / Trial | | | | |
+| Wedge → Larger Market | | | | |
+| Integrations / Co-Marketing | | | | |
+| Channel Partnerships | | | | |
+| Forcing Function | | | | |
+| Community / Educational Content | | | | |
+| Founder Story / Market Fit | | | | |
+| Category Creation | | | | |
 
-Dai ogni advantage presente uno score su 2 dimensioni:
-- **Forza** (1-3): quanto è solido e difendibile?
-- **Sfruttabilità ora** (1-3): quanto è facile attivarlo con le risorse attuali?
+### Step 2 — Valutazione e prioritizzazione
 
-**Score totale** = Forza × Sfruttabilità. I top 2-3 sono i Marketing Advantages prioritari.
+Per gli advantage presenti, valuta su 2 dimensioni:
+- **Forza potenziale** (1-3): quanto può accelerare la crescita se sfruttato appieno?
+- **Livello di sfruttamento attuale** (1-3): lo stai già usando o è dormiente?
+
+Gap tra potenziale e uso attuale = priorità di attivazione.
+
+Analizza anche: il competitor ha lo stesso advantage? Se sì, chi lo sta sfruttando meglio?
 
 ### Step 3 — Implicazioni strategiche
 
-Per ognuno dei 2-3 advantage prioritari, definisci:
-- **Come si attiva** (quale tattica, canale o formato lo sfrutta meglio)
-- **Come si mantiene** (cosa serve per non perderlo nel tempo)
-- **Come si comunica** (come diventa parte del messaging e delle perceptions)
+Per ognuno dei 2-3 advantage prioritari:
+- **Come si attiva** (quale tattica, canale o formato lo sfrutta)
+- **Come si mantiene e rafforza** nel tempo
+- **Come alimenta le Perceptions** (quale narrativa strategica supporta)
 
 ### Step 4 — Red flag
 
-Verifica che i Marketing Advantages identificati siano reali, non desiderati:
+Prima di finalizzare, verifica che gli advantage identificati siano reali:
 - "Vogliamo costruire una community" ≠ "abbiamo una community" — il futuro non conta
-- "Il CEO è brillante" ≠ advantage a meno che abbia già audience o visibilità misurabile
-- Un advantage che tutti i competitor hanno = non è un advantage
+- "Il CEO è brillante" ≠ advantage se non ha audience o visibilità misurabile
+- Alcuni advantage non si possono forzare (founder story, category creation): se non esistono naturalmente, non sprecare risorse a costruirli
 
 ### Step 5 — Output
 
-Scrivi i Marketing Advantages in forma concisa:
+Documenta gli advantage in questo formato:
+
 ```
-Advantage 1: [Nome]
-Descrizione: [cosa è concretamente]
-Prova: [dato o evidenza che lo conferma]
-Come si attiva: [tattica specifica]
+Advantage 1: [Nome — dalla lista MKT1]
+Descrizione: [cosa è concretamente per questo business]
+Evidenza: [dato o prova che lo conferma]
+Forza potenziale: [1-3] | Sfruttamento attuale: [1-3]
+Azione prioritaria: [come attivarlo o amplificarlo]
 
 Advantage 2: ...
 ```
 
 Salva in `outputs/YYYY-MM-DD-marketing-advantages-[cliente].md`.
-Aggiorna `context/positioning.md` con una sezione "Marketing Advantages".
+Aggiorna `context/positioning.md` con la sezione "Marketing Advantages".
 
 ---
 
-## Esempi
+## Nota sulla creazione di advantage
 
-**Advantage forte**: startup HR tech con 200 case study di clienti Fortune 500 — il content advantage è enorme (social proof + SEO).  
-**Advantage debole identificato male**: "il nostro team ha esperienza nel settore" — tutti i competitor dicono lo stesso.  
-**Advantage inaspettato**: il CEO è attivo su LinkedIn con 40K follower nel target ICP — è un distribution advantage sottovalutato.
+Alcuni advantage sono intrinseci al modello (network effects, wedge). Altri possono essere costruiti (free plan, co-marketing con partner) se il ROI lo giustifica. Founder story e category creation sono quasi impossibili da forzare — se non sono naturali, non investire.
 
 ---
 
 ## Troubleshooting
 
-**"Non abbiamo nessun advantage"**: tutti i business ne hanno almeno uno. Spesso è nascosto: il founder sa cose che i competitor non sanno, c'è accesso a un segmento specifico, o il modello di pricing è più accessibile.
+**"Non abbiamo nessun advantage"**: ogni business ne ha almeno uno. Spesso è nascosto. Cerca: il founder ha relazioni nel settore? C'è un trend di mercato che rende il vostro prodotto urgente? Avete integrazioni con prodotti che hanno già l'audience che volete? Ricerca fino a trovarne almeno 1-2 reali.
 
-**Troppi advantage**: se ne emergono 6-7, stai elencando feature, non advantage. Torna al filtro "difficile da copiare in 6 mesi?" — se non passa, non è un advantage.
+**Troppi advantage**: se ne emergono 6+, stai descrivendo caratteristiche del prodotto, non advantage. Torna al filtro "questo crea crescita intrinseca difficile da replicare dai competitor?" — se non lo passa, non è un advantage.

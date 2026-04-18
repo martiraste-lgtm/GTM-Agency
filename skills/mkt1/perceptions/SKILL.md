@@ -1,17 +1,17 @@
 ---
 name: mkt1-perceptions
-description: Definisce le 3-4 Perceptions strategiche — le narrative che vuoi che il tuo mercato creda e ripeta. Non sono tagline, non sono positioning statement: sono credenze che, una volta radicate, rendono la categoria propria. Trigger: "perceptions", "narrative strategiche", "cosa vogliamo che il mercato creda", "mkt1 perceptions", "definisci le credenze", "messaggi strategici".
+description: Definisce le 3-4 Perceptions strategiche — le affermazioni che vuoi che il tuo mercato pensi e ripeta di te. Non sono tagline né positioning statement: sono narrative che, una volta radicate, rendono la categoria propria e guidano il 90% dei contenuti non-SEO. Trigger: "perceptions", "narrative strategiche", "cosa vogliamo che il mercato creda", "mkt1 perceptions", "definisci le credenze", "messaggi strategici".
 license: MIT
 metadata:
   author: GTM Collective (adattato da framework MKT1 — Emily Kramer / Kathleen Estreich)
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 ## Overview
 
-Le Perceptions sono le 3-4 affermazioni che vuoi che il tuo ICP dica di te a un collega quando parla del tuo prodotto. Non "sono il migliore in X" — ma "questi ragazzi capiscono davvero [problema specifico]", "questo è l'unico strumento che funziona per [segmento]", "chi usa X è un passo avanti rispetto alla concorrenza".
+Le Perceptions sono le affermazioni che vuoi che il tuo ICP dica o pensi di te — non come copy aziendale, ma come commento spontaneo a un collega. "Se stai valutando X, dovresti guardare anche loro." "Questi capiscono davvero il problema Y." "Il loro founder ha già fatto questo internamente, sa cosa funziona."
 
-Le Perceptions guidano tutto il contenuto, il messaging e la narrativa. Se ogni pezzo di contenuto non rafforza almeno una Perception, è rumore.
+Funzionano come storyline chiave: ogni pezzo di contenuto, ogni campagna, ogni messaggio dovrebbe legarsi a una delle Perceptions. Il test di validità: se il 90% del contenuto non-SEO non si aggancia a una delle tue Perceptions, stai creando rumore.
 
 Prerequisiti: `mkt1_company_overview` + `mkt1_marketing_advantages`.
 Output: aggiorna `content/narrative.md` e `content/pillars.md`.
@@ -20,88 +20,123 @@ Output: aggiorna `content/narrative.md` e `content/pillars.md`.
 
 ## Instructions
 
-### Step 1 — Da cosa nascono le Perceptions
+### Step 1 — Ricerca e input
 
-Le Perceptions buone nascono dall'intersezione di 3 elementi:
-1. **Cosa il buyer crede prima di incontrarti** (credenze attuali del mercato)
-2. **Cosa vorresti che credesse dopo** (la shift che vuoi produrre)
-3. **Cosa puoi supportare con evidenza** (data, case study, POV unico)
+Prima di definire le Perceptions, raccogli:
 
-Se manca il punto 3, la Perception è un'aspirazione, non una strategia.
+1. **Analisi audience**: come descrivono il loro problema, quali parole usano, cosa leggono
+2. **Performance storica contenuti**: quali pezzi hanno avuto engagement maggiore e perché
+3. **Trend di mercato**: cosa sta cambiando nel settore del cliente — tailwind e headwind
+4. **Cosa dicono già i clienti**: recensioni, case study, commenti — in parole loro
 
-### Step 2 — Tipi di Perceptions
+### Step 2 — Esercizio cross-funzionale (da fare con il team)
 
-Le Perceptions più efficaci rientrano in 4 categorie:
+Prima di scrivere le Perceptions, facilita questo esercizio con marketing, founder, product, sales, CS:
 
-| Tipo | Cosa fa | Esempio |
-|------|---------|---------|
-| **Categoria** | Definisce come viene percepita la categoria stessa | "Il problema non è la qualità dei lead — è quando li contatti" |
-| **Buyer** | Cambia come il buyer si vede | "Le startup che scalano usano i segnali, non le liste" |
-| **Competitivo** | Riposiziona rispetto ai competitor | "Un'agenzia di outbound ti vende campagne. Noi ti costruiamo il sistema" |
-| **Credenziale** | Stabilisce autorevolezza in un dominio specifico | "Nessuno capisce il GTM per startup B2B SaaS come chi l'ha fatto 50 volte" |
+Domande da porre a ogni stakeholder:
 
-### Step 3 — Processo di definizione
+1. "Come cambierebbe la vita lavorativa del nostro target audience se avessimo successo totale?"
+2. "Quali sono i punti di vista unici che danno forma al nostro prodotto e alla nostra strategia?"
+3. "Cosa dicono già i clienti di noi — in parole loro?"
+4. "Quali trend di mercato supportano o rendono urgente quello che facciamo?"
+5. "Cosa rende i nostri clienti unici rispetto ai clienti dei competitor?"
 
-**Domande da fare al cliente (o al collettivo per se stesso):**
+Raccogli le risposte → identifichi i temi ricorrenti → 3-4 temi diventano le Perceptions.
 
-1. "Quando un vostro cliente migliore parla di voi a un collega, cosa dice?"
-2. "Qual è il malinteso più comune che i prospect hanno su quello che fate?"
-3. "Cosa credono di dover fare prima di parlarvi — e che invece non serve?"
-4. "Qual è la cosa che solo voi potreste dire con credibilità su questo mercato?"
+### Step 3 — I 4 bucket tematici
 
-**Per ogni risposta**: trasformala in una frase che suona come qualcosa che un cliente soddisfatto direbbe (non come un copy aziendale).
+Le Perceptions di solito cadono in 4 categorie. Cerca di avere 1 Perception per bucket (non obbligatorio, ma aiuta la copertura narrativa):
 
-### Step 4 — Definire le 3-4 Perceptions
+| Bucket | Tipo di Perception |
+|--------|-------------------|
+| **Customer/Community** | Cosa rende unico il tuo pubblico — caratteristiche, comportamenti, valori condivisi |
+| **Product Story** | Come il prodotto risolve il problema in modo diverso dagli altri |
+| **Company Story** | Perché il fondatore/team è credibile e qualificato su questo problema |
+| **Market/Ecosystem Trends** | Dinamiche esterne che rendono il vostro approccio urgente o inevitabile |
 
-Per ogni Perception, compila questa struttura:
+### Step 4 — Scrittura delle Perceptions
+
+Per ogni tema emerso dall'esercizio, trasformalo in una frase che suona come qualcosa che un cliente soddisfatto direbbe a un collega. Non copy aziendale — voce del cliente.
+
+**Formato:**
 
 ```
 Perception [N]: [Titolo breve]
+Bucket: [Customer / Product / Company / Market]
 
-Affermazione: [La frase che vuoi che il mercato ripeta — in prima o terza persona del buyer]
+Affermazione: [La frase in voce del buyer — cosa dice di voi a un collega]
 Perché è strategica: [Cosa cambia nel mercato se questa credenza si diffonde]
 Proof points: [Dati, case study, insight o storie che la supportano]
-Come si attiva: [Tipo di contenuto, canale, formato — come renderla concreta]
-Pillar narrativo associato: [Quale dei pillar in content/pillars.md la veicola]
+Come si attiva: [Tipo di contenuto, canale, formato]
+Pillar narrativo associato: [Quale pillar in content/pillars.md la veicola]
 ```
 
-### Step 5 — Verifica qualità
+### Step 5 — Test di validità
 
-Prima di finalizzare, ogni Perception deve passare questi test:
+Prima di finalizzare ogni Perception, verifica:
 
-- **Test del "anche i miei competitor la direbbero"?** — Se sì, non è una Perception differenziante. Riscrivila.
-- **Test dell'evidenza**: hai almeno 1-2 proof point concreti? Se no, è un'aspirazione.
-- **Test della propagazione**: è la cosa che un cliente soddisfatto direbbe a un collega? Se suona come copy aziendale, semplificala.
-- **Test della coerenza con gli Advantages**: rafforza almeno uno dei Marketing Advantages identificati?
+**Test 1 — Non claimable dai competitor**
+Il tuo set di Perceptions, prese insieme, deve essere impossibile da rivendicare per un competitor. Le singole Perceptions possono sovrapporsi — la combinazione deve essere unica. Se un competitor potrebbe dire esattamente le stesse cose, torna a Step 2.
+
+**Test 2 — Evidenza disponibile**
+Ogni Perception deve avere almeno 1-2 proof point concreti (dato, caso studio, aneddoto verificabile). Se non hai evidenza, è un'aspirazione — segnalala come "da validare" e costruisci il proof point.
+
+**Test 3 — Voce autentica, non copy**
+Leggi l'Affermazione ad alta voce. Suona come qualcosa che un cliente reale direbbe? O suona come il sito web dell'azienda? Se sembra marketing, semplifica e rendi più colloquiale.
+
+**Test 4 — Copertura contenuti (90%)**
+Prendi gli ultimi 10 pezzi di contenuto prodotti. Almeno 9 su 10 devono essere riconducibili a una delle Perceptions. Se non ci riesci, o le Perceptions sono troppo strette o il contenuto è disconnesso dalla strategia.
 
 ### Step 6 — Output
 
-Scrivi le 3-4 Perceptions complete e salva in `outputs/YYYY-MM-DD-perceptions-[cliente].md`.
+Salva in `outputs/YYYY-MM-DD-perceptions-[cliente].md`.
 
 Poi aggiorna:
-- `content/narrative.md` con le Perceptions come filo conduttore della narrativa
-- `content/pillars.md` associando ogni pillar a una o più Perceptions
+- `content/narrative.md` con le Perceptions come asse portante della narrativa
+- `content/pillars.md` associando ogni pillar a 1-2 Perceptions specifiche
 
 ---
 
-## Esempio (per il collettivo stesso)
+## Esempi (fictional companies MKT1)
 
 ```
-Perception 1: "Chi parte dalle campagne sbaglia l'ordine"
-Affermazione: "Le startup che ottengono reply rate del 6-12% non hanno email migliori — hanno capito prima chi contattare e quando."
-Perché è strategica: riposiziona tutta la categoria di lead gen. Chi la crede non compra più da agenzie che partono dalle sequenze.
-Proof points: dati reply rate signal-based vs. cold, caso studio settore X.
-Come si attiva: post LinkedIn Pillar 2, case study, email di nurture post-evento.
+Perception: Product story
+"Se stai valutando Snowflake, dovresti guardare anche YetiCo"
 
-Perception 2: "Il GTM non si delega — si costruisce"
-Affermazione: "Dopo 6 mesi con il sistema giusto, non dipendi più da nessuno per fare outbound."
-Perché è strategica: differenzia da agenzie che creano dipendenza. Parla al CEO che non vuole esternalizzare per sempre.
+Perception: Market trend
+"Con i tassi Fed in discesa, il prodotto di CoyoteCo diventa ancora più critico"
+
+Perception: Content/community
+"MarmotCo ha i migliori contenuti su architettura martech stack"
+
+Perception: Company story
+"Il founder ha costruito questo tool internamente ad Amazon — sa cosa funziona su larga scala"
+```
+
+---
+
+## Esempi per il collettivo GTM
+
+```
+Perception 1 [Market trend]:
+"Le startup che ottengono reply rate del 6-12% non usano email migliori — usano i segnali al momento giusto."
+
+Perception 2 [Product story]:
+"GTM Collective non costruisce campagne — costruisce il sistema. Dopo 6 mesi puoi farlo in autonomia."
+
+Perception 3 [Company story]:
+"Questi hanno fatto GTM per startup B2B 50 volte — capiscono il problema prima ancora che tu lo formuli."
+
+Perception 4 [Customer/community]:
+"I founder che lavorano con GTM Collective smettono di fare sales da soli — e la pipeline non crolla."
 ```
 
 ---
 
 ## Troubleshooting
 
-**Perceptions troppo simili tra loro**: spesso le prime bozze si sovrappongono. Chiedi "questa Perception cambia il comportamento del buyer in un modo diverso rispetto all'altra?" Se no, unificale.
+**Perceptions troppo simili**: spesso le prime bozze si sovrappongono. Chiedi "questa Perception cambia il comportamento del buyer in un modo diverso rispetto all'altra?" Se no, unificale o usa bucket diversi.
 
-**Nessuna evidenza disponibile**: usa il formato "Stiamo raccogliendo la prova di questo" + dato parziale o aneddoto. Non inventare.
+**Resistenza del team**: le Perceptions richiedono buy-in cross-funzionale. Se sales dice "questa non riflette come vendiamo" o il founder dice "questa non sono io" — torna all'esercizio Step 2. Le Perceptions devono essere autentiche, non imposte dal marketing.
+
+**Troppi proof point mancanti**: documenta le Perceptions con evidenza parziale e costruisci un piano per raccogliere le prove che mancano (case study, survey, data).
