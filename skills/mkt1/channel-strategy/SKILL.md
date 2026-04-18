@@ -1,105 +1,146 @@
 ---
 name: mkt1-channel-strategy
-description: Determina il miglior channel mix in base a stage aziendale, audience, GTM motion e Marketing Advantages. Non tutti i canali funzionano in ogni contesto — questa skill elimina gli sprechi e indica dove investire davvero. Trigger: "channel strategy", "quali canali usare", "dove investire nel marketing", "channel mix", "mkt1 channel", "quali canali per il GTM".
+description: Determina il miglior channel mix in base a stage aziendale, audience, GTM motion e Marketing Advantages. Usa il framework dei 6 Growth Engine e i 10 Channel Pairing per costruire una strategia multi-canale coordinata invece di copiare il playbook di altri. Trigger: "channel strategy", "quali canali usare", "dove investire nel marketing", "channel mix", "mkt1 channel", "quali canali per il GTM", "channel startup fit".
 license: MIT
 metadata:
   author: GTM Collective (adattato da framework MKT1 — Emily Kramer / Kathleen Estreich)
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 ## Overview
 
-La maggior parte delle startup prova troppi canali allo stesso tempo e ottiene risultati mediocri su tutti. La Channel Strategy MKT1 lavora in 3 filtri sequenziali: prima elimina i canali sbagliati per lo stage, poi per la GTM motion, poi amplifica in base ai Marketing Advantages. Il risultato è 2-3 canali su cui concentrarsi davvero.
+Il problema più comune nella scelta dei canali: copiare quello che fanno gli altri o credere al mito del "singolo canale magico". La realtà: ogni startup ha una combinazione unica di prodotto, audience e GTM motion che determina quali canali funzionano. E nessun canale singolo è sufficiente — la strategia più difendibile combina canali che si rinforzano a vicenda.
+
+Come afferma MKT1: "Approccio al growth strategy come costruire una squadra di basket — ogni canale è un giocatore che contribuisce al successo complessivo."
 
 Prerequisiti: `mkt1_company_overview` + `mkt1_marketing_advantages`.
 Output: aggiorna `signals/signal-routing.md` e orienta la configurazione di `outbound/sequences/`.
 
 ---
 
-## Instructions
+## I 6 Growth Engine
 
-### Step 1 — Raccolta dati
+Tutti i canali marketing rientrano in 6 categorie (Engine):
 
-Prima di filtrare, raccogli:
-1. **Stage** (seed / serie A / growth)
-2. **GTM motion principale** (PLG / SLG / PLS / MLG / community-led)
-3. **ACV medio** (sotto 5K/anno, 5-25K/anno, 25K+/anno)
-4. **ICP** (chi è il buyer, dove vive online)
-5. **Marketing Advantages disponibili** (output della skill precedente)
-6. **Risorse attuali** (team size marketing, budget indicativo)
+| Engine | Descrizione | Ideale per |
+|--------|-------------|------------|
+| **Inbound** | Contenuti e SEO che attirano prospect verso di te | Prodotti self-service, SMB, PLG |
+| **Outbound** | Outreach diretto a prospect target (email, LinkedIn, cold call) | Enterprise, sales-led, SLG, ACV alto |
+| **Product Virality** | Meccanismi di condivisione built-in nel prodotto | Prodotti con effetti di rete, B2B collaboration tools |
+| **Events** | Webinar, conferenze, eventi dal vivo o virtuali | Prodotti che richiedono educazione o relazione umana |
+| **Ecosystem** | Partnership, co-marketing, affiliate, integrazioni | Piattaforme, prodotti con ecosistema naturale |
+| **Lifecycle** | Nurture, upsell, retention dei clienti esistenti | Tutti gli stage, spesso sottovalutato |
 
-### Step 2 — Filtro 1: Stage aziendale
+---
 
-Elimina i canali che non sono appropriati per lo stage attuale:
+## 3 Filtri per scegliere i canali
 
-| Stage | Canali validi | Canali da evitare |
-|-------|--------------|-------------------|
-| **Pre-seed / Seed** | Outbound diretto, LinkedIn founder, community, referral programmatico | Paid ads (troppo costoso senza conversion data), SEO (troppo lento), eventi tier 1 |
-| **Serie A** | Outbound, content/SEO iniziale, LinkedIn, events selezionati, partner | Mass paid senza conversion history |
-| **Growth** | Tutti — ma con priorità basata su unit economics | Nessuno escluso a priori, ma testare con dati |
+### Filtro 1 — Product Marketing Research (Driver 1)
 
-### Step 3 — Filtro 2: GTM motion
+La ricerca sull'audience rivela naturalmente dove i prospect si trovano: comunità online, newsletter, eventi di settore, tool che usano (ecosystem). Se capisci i workflow del buyer, i canali emergono da soli.
 
-Ogni GTM motion favorisce canali specifici:
+Domanda chiave: "Dove vive online il nostro ICP? Dove cerca informazioni prima di comprare?"
 
-| GTM Motion | Canali prioritari | Logica |
+### Filtro 2 — GTM Motion (Driver 2)
+
+| GTM Motion | Engine prioritari | Logica |
 |------------|-------------------|--------|
-| **SLG** (Sales-Led) | Outbound with signals, LinkedIn outreach, events, referral | Il buyer si vuole parlare — incontralo dove è |
-| **PLG** (Product-Led) | SEO, community, in-product, content | L'acquisizione avviene attraverso il prodotto stesso |
-| **PLS** (Product-Led Sales) | PLG + outbound selettivo sui product qualified leads | Il prodotto genera il lead, sales chiude |
-| **MLG** (Marketing-Led) | Content, SEO, paid, events — generate demand che poi va a sales | Volume → qualifica → sales |
-| **Community-Led** | Community building, eventi, UGC, champions program | Il flywheel è la community stessa |
+| **SLG** (Sales-Led) | Outbound, Events, Ecosystem | Il buyer vuole parlare con qualcuno |
+| **PLG** (Product-Led) | Inbound, Product Virality, Lifecycle | L'acquisizione avviene attraverso il prodotto |
+| **PLS** (Product-Led Sales) | PLG + Outbound selettivo su PQL | Il prodotto genera il lead, sales chiude |
+| **Community-Led** | Ecosystem, Events, Inbound | Il flywheel è la community stessa |
 
-**Per il collettivo (SLG puro)**: outbound with signals + LinkedIn sono i canali primari.
+### Filtro 3 — Marketing Advantages (Driver 3)
 
-### Step 4 — Filtro 3: Marketing Advantages
+Ogni Marketing Advantage amplifica un Engine specifico:
 
-I Marketing Advantages determinano quale canale puoi rendere slealmente efficace:
-
-| Advantage | Canale che amplifica |
+| Advantage | Engine che amplifica |
 |-----------|---------------------|
-| Founder con audience | LinkedIn + newsletter founder |
-| Community propria | Community-led, events |
-| Contenuto / SEO esistente | SEO, content marketing |
-| Dati proprietari | Personalizzazione outbound, reportistica settoriale |
-| Ecosistema / integrazioni | Partnership, co-marketing |
-| Expertise di categoria | Thought leadership, speaking, media |
-| Effetti di rete | Referral, viral loop, in-product |
+| Network Effects / Virality | Product Virality |
+| Free Plan / Trial | Inbound + Product Virality |
+| Wedge Strategy | Outbound (list specifica) + Inbound di nicchia |
+| Integrations / Co-Marketing | Ecosystem |
+| Channel Partnerships | Ecosystem |
+| Forcing Function (trend/regolamentazioni) | Outbound (urgency hook) + Inbound |
+| Community / Educational Content | Inbound + Events + Ecosystem |
+| Founder Story / Market Fit | Outbound (founder-led) + Events + Inbound |
+| Category Creation | Inbound (thought leadership) + Events |
 
-Aggiungi ai canali già filtrati il canale amplificato dall'Advantage — e mettilo in cima alla priorità.
+---
 
-### Step 5 — ACV e canale
+## 10 Channel Pairing Strategici
 
-L'ACV (valore medio del contratto annuale) influenza il rapporto effort/ritorno per canale:
+Un singolo canale raramente è sufficiente. La strategia più difendibile combina 2 canali che si rinforzano. I 10 pairing più efficaci:
 
-| ACV | Canali a ROI positivo |
-|-----|-----------------------|
-| < 5K/anno | PLG, SEO, community, contenuto self-serve |
-| 5-25K/anno | Outbound, LinkedIn, content + sales assist |
-| 25K+/anno | Outbound personalizzato, events, referral |
+| Pairing | Approccio | Errore comune |
+|---------|-----------|---------------|
+| **Inbound + Outbound** | Follow up outbound su visitatori ad alta intent; ABM per account top-tier, inbound per SMB | Silos tra marketing e sales, mancanza di integrazione |
+| **Inbound + Product Virality** | Contenuti attirano utenti iniziali, feature virali incoraggiano referral | Sovrainvestire in inbound senza aver validato i viral loop |
+| **Inbound + Events** | Webinar come CTA leggero (alternativa al meeting 1:1) | Troppi CTA in homepage, cannibalizzazione conversioni |
+| **Inbound + Ecosystem** | Co-creare contenuti con partner, amplificare reciprocamente | Partner che non mantengono gli impegni di distribuzione |
+| **Outbound + Product Virality** | Raggiungere account grandi che guideranno alta virality | Outbound senza viral loop validati nel prodotto |
+| **Outbound + Events** | Raggiungere account specifici via email con invito evento come CTA | Sovraccaricare lead con eventi di bassa qualità |
+| **Outbound + Ecosystem** | Warm intro da partner; filtrare liste per tech stack (Clay) | Sovraccaricare i partner senza offrire valore reale |
+| **Product Virality + Events** | Invitare high-sharers a eventi esclusivi; webinar su feature virali | Pressione eccessiva su clienti di valore |
+| **Product Virality + Ecosystem** | Service provider come moltiplicatori (dashboard multi-cliente) | Marketing che ignora le opportunità di network effect nell'ecosystem |
+| **Events + Ecosystem** | Co-ospitare eventi con partner per audience più ampio | Misallineamento su obiettivi e qualità bar con il partner |
 
-### Step 6 — Selezione finale e prioritizzazione
+---
 
-Dopo i 3 filtri, dovresti avere 3-5 canali candidati. Seleziona i top 2-3 usando questa logica:
+## ACV e scelta del canale
 
-1. **Canale primario**: quello con il miglior rapporto tra probabilità di funzionare e risorse necessarie
-2. **Canale secondario**: complementare al primario, diverso per formato (es. email + LinkedIn)
-3. **Canale sperimentale** (opzionale): uno da testare con budget/tempo limitato
+Il valore medio del contratto (ACV) influenza il rapporto effort/ritorno:
 
-### Step 7 — Output
+| ACV annuale | Engine a ROI positivo |
+|-------------|----------------------|
+| < 5K/anno | Inbound, SEO, Product Virality, self-serve |
+| 5-25K/anno | Outbound, LinkedIn, Inbound + sales assist |
+| 25K+/anno | Outbound personalizzato, Events, Ecosystem (referral) |
 
-Documenta il channel mix selezionato:
+---
+
+## Traffic Light System — prioritizzazione continua
+
+Dopo aver scelto i canali, usa il Traffic Light System per allocare il tempo:
+
+| Semaforo | % tempo | Logica |
+|----------|---------|--------|
+| **Verde** | 70% | Canali dove stai già vedendo trazione — raddoppia |
+| **Giallo** | 20% | Canali sperimentali da testare con attenzione |
+| **Rosso** | 10% | Lascia perdere — non forzare canali che non funzionano |
+
+Non iniziare mai con un mix 50/50 tra canali validati e nuovi esperimenti — diluisce i risultati su entrambi.
+
+---
+
+## Selezione finale
+
+Dopo i filtri, hai 3-5 canali candidati. Scegli i top 2-3:
+
+1. **Engine primario**: miglior rapporto tra probabilità di funzionare e risorse necessarie — 70% dello sforzo
+2. **Engine secondario**: complementare al primario, diverso per formato — 20% dello sforzo
+3. **Engine sperimentale** (opzionale): test controllato — 10% dello sforzo
+
+---
+
+## Output
 
 ```
-Channel primario: [nome]
-Perché: [logica basata su stage + motion + advantage]
+Channel Mix — [cliente / periodo]
+
+Engine primario: [nome]
+Perché: [logica basata su audience + GTM motion + advantages]
 Come si attiva: [tattiche specifiche, frequenza, KPI]
+Traffic Light: Verde (dobbiamo scalarlo) / Giallo (stiamo testando)
 
-Channel secondario: [nome]
+Engine secondario: [nome]
 Perché: [logica]
-Come si attiva: [tattiche specifiche]
+Come si attiva: [tattiche]
 
-Channel sperimentale: [nome o "nessuno per ora"]
+Channel pairing scelto: [es. Outbound + Events]
+Logica pairing: [come si rinforzano]
+
+Engine sperimentale: [nome o "nessuno per ora"]
 ```
 
 Salva in `outputs/YYYY-MM-DD-channel-strategy-[cliente].md`.
@@ -107,8 +148,18 @@ Aggiorna `signals/signal-routing.md` con i canali selezionati come output dei tr
 
 ---
 
+## Principio critico
+
+"Layering multiple channels together over time is the most defensible strategy, especially as engines and channels are changing rapidly due to AI and automation."
+
+Non cercare il canale magico. Costruisci una combinazione che si rafforza nel tempo.
+
+---
+
 ## Troubleshooting
 
-**"Vogliamo fare tutto"**: usa il filtro dell'ACV. Se l'ACV è sotto 10K, non puoi permetterti canali ad alta intensità di sales. Se è sopra 30K, il contenuto organico non converte abbastanza veloce.
+**"Vogliamo fare tutto"**: applica il filtro ACV. Se è sotto 10K, non puoi permetterti Engine ad alta intensità di sales. Se è sopra 30K, l'inbound organico non converte abbastanza veloce.
 
-**Canale che "ha sempre funzionato" nel passato**: valida se era vero o solo apparentemente. Se era referral di reti personali, non è un canale scalabile — è un advantage di network che si esaurisce.
+**"Abbiamo sempre fatto X"**: verifica se era realmente quel canale o la rete personale del founder. Se il canale era "referral da rete diretta", non è scalabile — è un Network Effect personale che si esaurisce.
+
+**Canali in silos**: se inbound e outbound sono gestiti da persone diverse senza coordinazione, i risultati calano. I pairing funzionano solo se i team si parlano e condividono i dati.
