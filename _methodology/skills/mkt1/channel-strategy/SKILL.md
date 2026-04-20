@@ -14,7 +14,7 @@ Il problema più comune nella scelta dei canali: copiare quello che fanno gli al
 Come afferma MKT1: "Approccio al growth strategy come costruire una squadra di basket — ogni canale è un giocatore che contribuisce al successo complessivo."
 
 Prerequisiti: `mkt1_company_overview` + `mkt1_marketing_advantages`.
-Output: aggiorna `signals/signal-routing.md` e orienta la configurazione di `outbound/sequences/`.
+Output: aggiorna `_methodology/signals/signal-routing.md` e orienta la configurazione di `clients/[nome]/outbound/sequences/`.
 
 ---
 
@@ -144,7 +144,7 @@ Engine sperimentale: [nome o "nessuno per ora"]
 ```
 
 Salva in `outputs/YYYY-MM-DD-channel-strategy-[cliente].md`.
-Aggiorna `signals/signal-routing.md` con i canali selezionati come output dei trigger.
+Aggiorna `_methodology/signals/signal-routing.md` con i canali selezionati come output dei trigger.
 
 ---
 

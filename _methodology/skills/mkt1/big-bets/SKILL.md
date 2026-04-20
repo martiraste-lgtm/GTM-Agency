@@ -12,7 +12,7 @@ metadata:
 Le startup disperdono l'energia su 10-15 tattiche parallele e ottengono risultati marginali su tutto. I Big Bets sono l'opposto: 1-3 iniziative ad alto impatto, ognuna con un obiettivo chiaro, un'audience specifica, un canale primario e un pezzo di contenuto/fuel che le alimenta. Non è una campagna singola — è un sistema coordinato che spinge la stessa Perception su più touchpoint contemporaneamente.
 
 Prerequisiti: `mkt1_marketing_advantages` + `mkt1_perceptions` + `mkt1_channel_strategy`.
-Output: `outbound/campaigns/big-bets.md` — piano delle campagne principali del trimestre/semestre.
+Output: `clients/[nome]/outbound/campaigns/big-bets.md` — piano delle campagne principali del trimestre/semestre.
 
 ---
 
@@ -88,7 +88,7 @@ Se hai 2-3 Big Bets, ordina per:
 
 ### Step 7 — Output
 
-Salva il documento completo in `outbound/campaigns/big-bets.md` (non in outputs/ — è un documento operativo permanente, aggiornato ogni trimestre).
+Salva il documento completo in `clients/[nome]/outbound/campaigns/big-bets.md` (non in outputs/ — è un documento operativo permanente, aggiornato ogni trimestre).
 
 Struttura del file:
 ```

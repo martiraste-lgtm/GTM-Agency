@@ -9,7 +9,7 @@ metadata:
 
 ## Overview
 
-Applica i criteri di `context/icp-definition.md` a una lista di account e assegna tier A/B/C con score e motivazione. Leggi `context/icp-definition.md` prima di iniziare.
+Applica i criteri di `clients/[nome]/context/icp-definition.md` a una lista di account e assegna tier A/B/C con score e motivazione. Leggi `clients/[nome]/context/icp-definition.md` prima di iniziare.
 
 ---
 
@@ -24,7 +24,7 @@ Ricevi la lista di account. Formati accettati:
 
 ### Step 2 — Applica lo scoring
 
-Per ogni account, applica i criteri da `context/icp-definition.md`:
+Per ogni account, applica i criteri da `clients/[nome]/context/icp-definition.md`:
 
 **Criteri standard** (adattare se questo è un repo cliente con ICP diverso):
 

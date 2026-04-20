@@ -9,7 +9,7 @@ metadata:
 
 ## Overview
 
-Ricerca pubblica su un dominio e popola automaticamente i file `context/`. Tempo stimato: 30-60 minuti. Richiede conferma prima di sovrascrivere file esistenti.
+Ricerca pubblica su un dominio e popola automaticamente i file `clients/[nome]/context/`. Tempo stimato: 30-60 minuti. Richiede conferma prima di sovrascrivere file esistenti.
 
 ---
 
@@ -34,22 +34,22 @@ Ricerca le seguenti fonti nell'ordine:
 
 Crea o aggiorna questi file con i dati trovati:
 
-**`context/profile.md`**:
+**`clients/[nome]/context/profile.md`**:
 - Chi sono, cosa fanno, prodotto principale
 - Clienti citati (se presenti)
 - Team size e fondatori
 - Stage e funding (se disponibile)
 
-**`context/icp-definition.md`** (prima bozza):
+**`clients/[nome]/clients/[nome]/context/icp-definition.md`** (prima bozza):
 - Da job posting e clienti citati, ipotizza chi è il loro ICP
 - Settore, dimensione azienda, ruolo decisore
 - Nota esplicitamente che è una bozza da validare in kick-off
 
-**`context/competitor-radar.md`** (prima bozza):
+**`clients/[nome]/clients/[nome]/context/competitor-radar.md`** (prima bozza):
 - Competitor menzionati sul sito o su G2
 - Come si posizionano rispetto a loro (se visibile)
 
-**`context/positioning.md`** (prima bozza):
+**`clients/[nome]/clients/[nome]/context/positioning.md`** (prima bozza):
 - Headline del sito → che problema risolvono?
 - CTA principale → a chi si rivolgono?
 - Linguaggio usato → tecnico? business? consumer?
@@ -74,7 +74,7 @@ Mostra un sommario di cosa hai popolato. Chiedi conferma prima di salvare se ci 
 
 ```
 Prompt: "Read skills/setup/SKILL.md and set up this repo for acme.com"
-Output: context/profile.md, context/icp-definition.md, context/competitor-radar.md, context/positioning.md popolati con dati da ricerca pubblica.
+Output: clients/[nome]/context/profile.md, clients/[nome]/context/icp-definition.md, clients/[nome]/context/competitor-radar.md, clients/[nome]/context/positioning.md popolati con dati da ricerca pubblica.
 ```
 
 ---

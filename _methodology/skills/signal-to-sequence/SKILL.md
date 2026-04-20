@@ -9,7 +9,7 @@ metadata:
 
 ## Overview
 
-Converte un segnale di acquisto in una sequenza outbound calibrata. Leggi `context/positioning.md`, `signals/signal-library.md`, e il message house in `outbound/sequences/message-house.md` prima di costruire.
+Converte un segnale di acquisto in una sequenza outbound calibrata. Leggi `clients/[nome]/context/positioning.md`, `_methodology/signals/signal-library.md`, e il message house in `clients/[nome]/outbound/sequences/message-house.md` prima di costruire.
 
 ---
 
@@ -27,11 +27,11 @@ Raccogli:
 
 - Controlla il decay: è ancora rilevante? (0-90 giorni = sì; 90-180 = parziale; 180+ = scaduto)
 - Ci sono segnali combinati? (scala il tier se sì)
-- L'account è nel ICP? (consulta `context/icp-definition.md`)
+- L'account è nel ICP? (consulta `clients/[nome]/context/icp-definition.md`)
 
 ### Step 3 — Seleziona l'angolo dal message house
 
-Da `outbound/sequences/message-house.md`:
+Da `clients/[nome]/outbound/sequences/message-house.md`:
 - Quale value pillar è più rilevante per QUESTO segnale specifico?
 - Qual è il problema che il segnale implica per questa persona?
 - Qual è il proof point più pertinente?
@@ -85,13 +85,13 @@ Prima di consegnare, verifica:
 - [ ] Ogni messaggio risponde a: "perché questa persona dovrebbe rispondere ORA?"
 - [ ] Nessun riferimento generico che potrebbe applicarsi a qualsiasi azienda
 - [ ] CTA è una domanda, non una call to action aggressiva
-- [ ] Tono coerente con `context/positioning.md`
+- [ ] Tono coerente con `clients/[nome]/context/positioning.md`
 - [ ] Lunghezza rispettata (email: max 5 righe prima della CTA)
 
 ### Step 6 — Salva e lancia
 
-Salva la sequenza in: `outbound/sequences/[segnale]-[persona]-[data].md`
-Registra la campagna in: `outbound/campaigns/`
+Salva la sequenza in: `clients/[nome]/outbound/sequences/[segnale]-[persona]-[data].md`
+Registra la campagna in: `clients/[nome]/outbound/campaigns/`
 
 ---
 
@@ -106,5 +106,5 @@ Output: sequenza email 4 touch con oggetto, corpo e CTA calibrati su funding rou
 
 ## Troubleshooting
 
-**Nessun message house disponibile**: costruisci il message house base da `context/positioning.md` prima di procedere.
+**Nessun message house disponibile**: costruisci il message house base da `clients/[nome]/context/positioning.md` prima di procedere.
 **Segnale scaduto (180+ giorni)**: non costruire la sequenza. Aspetta un nuovo segnale o cambia approccio (es. contenuto LinkedIn invece di outreach diretto).

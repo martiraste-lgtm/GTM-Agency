@@ -9,7 +9,7 @@ metadata:
 
 ## Overview
 
-Ricerca approfondita su un singolo account prima dell'outreach. Output: file datato in `outbound/account-research/`. Leggi `context/icp-definition.md` e `signals/signal-library.md` prima di iniziare.
+Ricerca approfondita su un singolo account prima dell'outreach. Output: file datato in `clients/[nome]/outbound/account-research/`. Leggi `clients/[nome]/context/icp-definition.md` e `_methodology/signals/signal-library.md` prima di iniziare.
 
 ---
 
@@ -30,7 +30,7 @@ Fonti da consultare:
 
 ### Step 3 — Identifica segnali attivi
 
-Consulta `signals/signal-library.md` e identifica:
+Consulta `_methodology/signals/signal-library.md` e identifica:
 - Quali segnali sono attivi su questo account?
 - Quando sono stati rilevati? (calcola il decay)
 - Score totale (incluse combinazioni se multiple)
@@ -38,7 +38,7 @@ Consulta `signals/signal-library.md` e identifica:
 
 ### Step 4 — Identifica la persona giusta
 
-Consulta `context/personas/` e identifica:
+Consulta `clients/[nome]/context/personas/` e identifica:
 - Ruolo più adatto da contattare (in base al segnale e al tipo di azienda)
 - Nome specifico se trovato su LinkedIn
 - Livello di attività LinkedIn (attivo? silente?)
@@ -48,11 +48,11 @@ Consulta `context/personas/` e identifica:
 In base a segnale + persona + ICP del cliente:
 - Canale consigliato (email vs. LinkedIn DM)
 - Angolo del messaggio (aggancio al segnale specifico)
-- Sequenza da usare (da `outbound/sequences/` se esiste)
+- Sequenza da usare (da `clients/[nome]/outbound/sequences/` se esiste)
 
 ### Step 6 — Salva output
 
-Salva in: `outbound/account-research/YYYY-MM-DD-[nome-azienda].md`
+Salva in: `clients/[nome]/outbound/account-research/YYYY-MM-DD-[nome-azienda].md`
 
 Struttura output:
 ```markdown
@@ -83,4 +83,4 @@ Tier: [A/B/C] | Score: [N]
 ## Troubleshooting
 
 **Account non trovabile online**: se il sito è scarso e LinkedIn è vuoto, segnala "informazioni limitate" e basa l'angolo solo sui dati firmografici + segnale rilevato.
-**Persona non trovata**: consiglia il ruolo tipo da contare in base alla persona in `context/personas/`.
+**Persona non trovata**: consiglia il ruolo tipo da contare in base alla persona in `clients/[nome]/context/personas/`.

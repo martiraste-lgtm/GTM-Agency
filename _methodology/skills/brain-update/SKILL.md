@@ -9,9 +9,9 @@ metadata:
 
 ## Overview
 
-Dopo ogni campagna, questa skill trasforma i dati grezzi in pattern strutturati nel sistema `knowledge/`. È il motore che fa migliorare il sistema nel tempo — ogni campagna insegna qualcosa che viene cristallizzato e usato nelle successive.
+Dopo ogni campagna, questa skill trasforma i dati grezzi in pattern strutturati nel sistema `_agency/knowledge/`. È il motore che fa migliorare il sistema nel tempo — ogni campagna insegna qualcosa che viene cristallizzato e usato nelle successive.
 
-Leggi `knowledge/INDEX.md` prima di iniziare per capire lo stato attuale dei pattern.
+Leggi `_agency/knowledge/INDEX.md` prima di iniziare per capire lo stato attuale dei pattern.
 
 ---
 
@@ -19,7 +19,7 @@ Leggi `knowledge/INDEX.md` prima di iniziare per capire lo stato attuale dei pat
 
 ### Step 1 — Raccolta dati campagna
 
-Chiedi (o estrai da `outbound/campaigns/`):
+Chiedi (o estrai da `_agency/outbound/campaigns/`):
 
 1. **Quale campagna analizziamo?** (segmento, segnale usato, periodo)
 2. **Metriche principali:**
@@ -40,25 +40,25 @@ Chiedi (o estrai da `outbound/campaigns/`):
 Per ogni segnale usato nella campagna:
 
 **Se il reply rate è > baseline del 50%** (es. baseline 3%, campagna 5%+):
-- Confronta con `knowledge/signals/hypotheses.md`
+- Confronta con `_agency/knowledge/signals/hypotheses.md`
 - È già in test? Aggiorna il contatore (N/3 prove)
-- Se è la 3a conferma → promuovi a `knowledge/signals/confirmed.md`
-- Se è nuovo → aggiungi come nuova ipotesi in `knowledge/signals/hypotheses.md`
+- Se è la 3a conferma → promuovi a `_agency/knowledge/signals/confirmed.md`
+- Se è nuovo → aggiungi come nuova ipotesi in `_agency/knowledge/signals/hypotheses.md`
 
 **Se il reply rate è < baseline**:
 - Il segnale è debole o il copy era sbagliato? (distingui le cause)
-- Se 2+ campagne con lo stesso risultato → valuta se spostare in `knowledge/signals/graveyard.md`
+- Se 2+ campagne con lo stesso risultato → valuta se spostare in `_agency/knowledge/signals/graveyard.md`
 
 ### Step 3 — Analisi pattern copy/sequenze
 
 Per gli angoli di messaggio usati:
 
 **Angolo che ha funzionato** (reply positivi che menzionano un elemento specifico):
-- Aggiungi o aggiorna in `knowledge/sequences/hypotheses.md` o `confirmed.md`
+- Aggiungi o aggiorna in `_agency/knowledge/sequences/hypotheses.md` o `confirmed.md`
 - Nota: settore, persona, segnale — il pattern è specifico al contesto
 
 **Angolo che non ha funzionato**:
-- Aggiorna `knowledge/sequences/hypotheses.md` con il contatore negativo
+- Aggiorna `_agency/knowledge/sequences/hypotheses.md` con il contatore negativo
 - Dopo 2+ fallimenti → valuta `graveyard.md`
 
 ### Step 4 — Aggiorna ICP
@@ -69,12 +69,12 @@ Basandosi su chi ha risposto (positivamente) e chi ha risposto (negativamente o 
 - C'erano aziende fuori ICP che hanno risposto bene? (nuovo segmento da esplorare)
 - C'erano aziende nell'ICP che non hanno risposto? (raffinare i criteri)
 
-→ Aggiorna `knowledge/icp/hypotheses.md` o `confirmed.md` di conseguenza
+→ Aggiorna `_agency/knowledge/icp/hypotheses.md` o `confirmed.md` di conseguenza
 
 ### Step 5 — Aggiorna obiezioni
 
 Dalle risposte negative ricevute:
-- C'era una nuova obiezione non ancora documentata? → aggiungi a `knowledge/objections/patterns.md`
+- C'era una nuova obiezione non ancora documentata? → aggiungi a `_agency/knowledge/objections/patterns.md`
 - Un'obiezione già presente ha ricevuto risposta efficace? → aggiorna con la risposta che ha funzionato
 
 ### Step 6 — Aggiorna knowledge/INDEX.md
@@ -83,7 +83,7 @@ Aggiorna la tabella con i nuovi contatori di pattern per ogni dominio.
 
 ### Step 7 — Controlla promozioni
 
-Per ogni dominio (`signals/`, `sequences/`, `icp/`):
+Per ogni dominio (`_methodology/signals/`, `sequences/`, `icp/`):
 - Ci sono ipotesi con 3+ conferme? → Promuovi a `confirmed.md`
 - Ci sono regole in `confirmed.md` contraddette dai nuovi dati? → Retrocedi a `hypotheses.md`
 

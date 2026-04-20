@@ -197,10 +197,10 @@ Quando si analizzano i segmenti audience nel `company-overview`, usa questo sche
 
 | Skill MKT1 | Aggiorna nel repo |
 |-----------|----------|
-| company-overview | `context/profile.md`, `context/icp-definition.md` |
-| marketing-advantages | `context/positioning.md` |
+| company-overview | `clients/[nome]/context/profile.md`, `clients/[nome]/context/icp-definition.md` |
+| marketing-advantages | `clients/[nome]/context/positioning.md` |
 | perceptions | `content/narrative.md`, `content/pillars.md` |
-| channel-strategy | `signals/signal-routing.md`, `outbound/sequences/` |
+| channel-strategy | `_methodology/signals/signal-routing.md`, `clients/[nome]/outbound/sequences/` |
 | revenue-levers | `kpi/dashboard.md` |
-| big-bets | `outbound/campaigns/big-bets.md` |
-| gaccs | `outbound/campaigns/YYYY-MM-DD-gaccs-[nome].md` |
+| big-bets | `clients/[nome]/outbound/campaigns/big-bets.md` |
+| gaccs | `clients/[nome]/outbound/campaigns/YYYY-MM-DD-gaccs-[nome].md` |

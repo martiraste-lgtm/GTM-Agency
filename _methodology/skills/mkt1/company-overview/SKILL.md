@@ -11,7 +11,7 @@ metadata:
 
 Questa skill costruisce il "Company Overview" — il documento di partenza da cui tutto il resto deriva. Non è un profilo generico: è un'analisi strutturata dei 4 driver che determinano TUTTE le scelte di marketing. Senza conoscere lo stage, il modello di monetizzazione, il profilo del buyer e il competitive landscape reale, qualsiasi strategia marketing è una congettura.
 
-Output: aggiorna `context/profile.md` e `context/icp-definition.md` con i dati raccolti.
+Output: aggiorna `clients/[nome]/context/profile.md` e `clients/[nome]/context/icp-definition.md` con i dati raccolti.
 
 ---
 
@@ -73,8 +73,8 @@ Mappa reale delle alternative:
 Produci un Company Overview strutturato in 4 sezioni (una per ogni step) e salva in `outputs/YYYY-MM-DD-company-overview-[cliente].md`.
 
 Poi aggiorna:
-- `context/profile.md` con i dati di stage, modello e differenziatori chiave
-- `context/icp-definition.md` con il buyer reale documentato
+- `clients/[nome]/context/profile.md` con i dati di stage, modello e differenziatori chiave
+- `clients/[nome]/context/icp-definition.md` con il buyer reale documentato
 
 ---
 

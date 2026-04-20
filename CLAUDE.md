@@ -4,6 +4,33 @@ Questo è il sistema operativo del collettivo. Leggilo per intero ad ogni sessio
 
 ---
 
+## Struttura del repo
+
+```
+gtm-collective-brain/
+├── CLAUDE.md                  ← questo file — sistema operativo
+├── _agency/                   ← dati del collettivo stesso
+│   ├── context/               — ICP, positioning, profile, personas, competitor radar
+│   ├── knowledge/             — learnings cross-client del collettivo
+│   ├── content/               — narrative e pillars
+│   ├── kpi/                   — dashboard e benchmark
+│   ├── outbound/              — campagne outbound proprie
+│   └── outputs/               — asset prodotti internamente
+├── _methodology/              ← metodologia condivisa (non duplicare per cliente)
+│   ├── skills/                — tutte le skill operative
+│   ├── playbooks/             — playbook per situazioni ricorrenti
+│   ├── workflows/             — flussi operativi
+│   └── signals/               — libreria e routing segnali
+└── clients/                   ← un sottodir per ogni cliente
+    └── client-[nome]/
+        ├── context/           — ICP, positioning, personas del cliente
+        ├── knowledge/         — learnings specifici del cliente
+        ├── kpi/               — metriche del cliente
+        └── outputs/           — asset prodotti per il cliente
+```
+
+---
+
 ## Chi siamo
 
 Siamo un collettivo di 4 specialisti (P.I. individuali) che offrono un servizio di **GTM Engineering + Outbound with Signals** per startup B2B.
@@ -42,20 +69,27 @@ Il processo opera su 4 livelli in parallelo:
 ## Come usare questo sistema
 
 ### Per il collettivo stesso (trovare nuovi clienti)
-1. Leggi `context/icp-definition.md` — chi sono i nostri clienti ideali
-2. Consulta `signals/signal-library.md` — quali segnali stiamo monitorando
-3. Usa `skills/account-research/SKILL.md` — brief su un prospect prima di contattarlo
-4. Usa `skills/signal-to-sequence/SKILL.md` — segnale rilevato → campagna live
-5. Ogni lunedì: `skills/weekly-update/SKILL.md` — mantieni il contesto aggiornato
-6. Dopo ogni campagna: `skills/brain-update/SKILL.md` — aggiorna i learnings
+1. Leggi `_agency/context/icp-definition.md` — chi sono i nostri clienti ideali
+2. Consulta `_methodology/signals/signal-library.md` — quali segnali stiamo monitorando
+3. Usa `_methodology/skills/account-research/SKILL.md` — brief su un prospect prima di contattarlo
+4. Usa `_methodology/skills/signal-to-sequence/SKILL.md` — segnale rilevato → campagna live
+5. Ogni lunedì: `_methodology/skills/weekly-update/SKILL.md` — mantieni il contesto aggiornato
+6. Dopo ogni campagna: `_methodology/skills/brain-update/SKILL.md` — aggiorna i learnings
 
 ### Per un nuovo cliente
-1. Fork questo repo → rinomina `client-[nome]/`
-2. Esegui `skills/setup/SKILL.md` sul dominio del cliente — popola `context/` in 30 min
-3. Affina con informazioni del kick-off (vedi `workflows/client-onboarding.md`)
-4. Opera con le stesse skill — outbound, segnali, content
+1. Crea `clients/client-[nome]/` con sottocartelle: `context/`, `knowledge/`, `kpi/`, `outputs/`
+2. Esegui `_methodology/skills/setup/SKILL.md` sul dominio del cliente — popola `clients/[nome]/context/` in 30 min
+3. Affina con informazioni del kick-off (vedi `_methodology/workflows/client-onboarding.md`)
+4. Opera con le skill in `_methodology/skills/` — outbound, segnali, content
+
+### Quando lavori su un cliente specifico
+- Leggi prima `_agency/context/` per il contesto del collettivo
+- Poi leggi `clients/[nome]/context/` per i dati specifici del cliente
+- Le skill in `_methodology/skills/` si usano sempre — non sono duplicate per cliente
 
 ### Skills disponibili
+
+Tutte le skill sono in `_methodology/skills/`.
 
 | Skill | Quando usarla |
 |-------|---------------|
@@ -85,17 +119,17 @@ Il processo opera su 4 livelli in parallelo:
 
 ## Regole apprese (aggiornato trimestralmente)
 
-*Questa sezione viene aggiornata ogni trimestre con i pattern promossi da `knowledge/`. Inizia vuota e si popola con l'uso.*
+*Questa sezione viene aggiornata ogni trimestre con i pattern promossi da `_agency/knowledge/`. Inizia vuota e si popola con l'uso.*
 
 ---
 
 ## Stato corrente
 
-**Data ultimo aggiornamento**: 2026-04-17
+**Data ultimo aggiornamento**: 2026-04-20
 **Fase**: Sistema in setup — nessuna campagna attiva ancora
 **ICP prioritario**: Startup B2B SaaS (pre-seed/seed/serie A) con trigger round o stallo pipeline, settori travel/HR/healthcare/gaming/cosmetica, min. 8K MRR o 200K+ funding
 **Campagne attive**: nessuna
-**Segnali più performanti**: da popolare — vedi `knowledge/signals/confirmed.md`
+**Segnali più performanti**: da popolare — vedi `_agency/knowledge/signals/confirmed.md`
 **Pricing beta**: 2.500-3.000 €/mese | target: 5.000 €/mese
 **Next actions**: avviare primo outbound su noi stessi, raccogliere dati campagna 1, fare brain-update dopo 2-4 settimane
 
@@ -103,8 +137,8 @@ Il processo opera su 4 livelli in parallelo:
 
 ## File da leggere per contesto completo
 
-- `context/profile.md` — dettaglio su chi siamo
-- `context/icp-definition.md` — ICP con tier e criteri
-- `context/positioning.md` — come ci posizioniamo
-- `signals/signal-library.md` — tutti i segnali con scoring
-- `knowledge/INDEX.md` — mappa di tutto il knowledge accumulato
+- `_agency/context/profile.md` — dettaglio su chi siamo
+- `_agency/context/icp-definition.md` — ICP con tier e criteri
+- `_agency/context/positioning.md` — come ci posizioniamo
+- `_methodology/signals/signal-library.md` — tutti i segnali con scoring
+- `_agency/knowledge/INDEX.md` — mappa di tutto il knowledge accumulato

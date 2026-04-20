@@ -15,7 +15,7 @@ Il GACCS Brief è il documento operativo più usato del sistema MKT1. Va compila
 
 Senza un GACCS Brief: scope creep, team misallineato, lavoro fatto in silos, difficoltà a misurare il successo e a capire cosa ha funzionato.
 
-Output: `outbound/campaigns/YYYY-MM-DD-gaccs-[nome-campagna].md`
+Output: `clients/[nome]/outbound/campaigns/YYYY-MM-DD-gaccs-[nome-campagna].md`
 
 ---
 

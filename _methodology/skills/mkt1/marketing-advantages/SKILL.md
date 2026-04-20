@@ -14,7 +14,7 @@ I Marketing Advantages sono "dinamiche nel business, nel prodotto o nel mercato 
 Principio critico: **senza Marketing Advantages, una startup non può vincere nel marketing**. Se non ne hai, devi aggiustare il prodotto, la business strategy o l'approccio GTM.
 
 Prerequisito: `mkt1_company_overview` completato.
-Output: aggiorna `context/positioning.md` con la sezione Marketing Advantages.
+Output: aggiorna `clients/[nome]/context/positioning.md` con la sezione Marketing Advantages.
 
 ---
 
@@ -120,7 +120,7 @@ Advantage 2: ...
 ```
 
 Salva in `outputs/YYYY-MM-DD-marketing-advantages-[cliente].md`.
-Aggiorna `context/positioning.md` con la sezione "Marketing Advantages".
+Aggiorna `clients/[nome]/context/positioning.md` con la sezione "Marketing Advantages".
 
 ---
 
