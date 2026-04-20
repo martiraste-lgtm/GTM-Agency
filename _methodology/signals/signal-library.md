@@ -47,6 +47,15 @@
 
 ---
 
+### S03b — Hiring Fractional PMM / Marketing strategico
+**Score**: 26 | **Finestra ottimale**: 0-30 giorni
+**Fonte**: LinkedIn job posting
+**Cosa indica**: il founder sa che ha un problema di positioning/messaging ma non vuole (o non può) assumere a tempo pieno — finestra di acquisto altissima
+**Hook**: "Ho visto che cercate un fractional PMM. Spesso in questa fase quello che serve non è una persona sola, ma un sistema — positioning, messaging, outreach e asset collegati. Possiamo fare una call rapida?"
+**Combinazioni potenti**: S03b + S01 = massima priorità
+
+---
+
 ## Segnali Tier 2 (score base 15-24) — alta priorità
 
 ### S04 — Nuovo mercato / espansione geografica
@@ -72,6 +81,41 @@
 **Fonte**: LinkedIn monitoring
 **Cosa indica**: il founder sta pensando attivamente al problema — finestra di attenzione molto alta
 **Hook**: rispondere direttamente al post con un commento utile, poi DM
+
+---
+
+### S11 — MRR piatto o in calo + board meeting imminente
+**Score**: 22 | **Finestra ottimale**: 0-20 giorni
+**Fonte**: post LinkedIn del founder su "aggiornamento investitori", "board meeting", commenti su crescita/pipeline
+**Cosa indica**: pressione esterna a mostrare progressi — il founder è in modalità problem-solving attivo
+**Hook**: diretto sul risultato atteso dal board, non sul servizio
+**Combinazioni potenti**: S11 + S07 (post su sfide GTM) = massima urgenza
+
+### S12 — Ha appena speso in agenzia/freelance senza risultati
+**Score**: 24 | **Finestra ottimale**: 0-30 giorni
+**Fonte**: post LinkedIn del founder (frustrazione su vendor/agenzie), menzione diretta in conversazione, commenti pubblici
+**Cosa indica**: ha già budget allocato per GTM, ha già bruciato un tentativo — è pronto per qualcosa di diverso
+**Hook**: non vendere, creare tensione su perché il tentativo precedente non poteva funzionare strutturalmente
+**Nota**: approccio delicato — non attaccare il vendor precedente direttamente
+
+### S13 — Post LinkedIn indifferenziati / autoreferenziali del founder
+**Score**: 18 | **Finestra ottimale**: 0-15 giorni
+**Fonte**: LinkedIn monitoring del profilo founder
+**Cosa indica**: stanno cercando di fare content ma senza POV — il founder sente la pressione di "fare LinkedIn" senza un sistema
+**Hook**: commenta il post con un angolo diverso, poi DM — non partire dalla vendita ma dalla conversazione sul POV
+**Nota**: questo è un segnale debole da solo, forte in combinazione con altri
+
+### S14 — Torna da evento / vede competitor o peer crescere più velocemente
+**Score**: 15 | **Finestra ottimale**: 0-20 giorni
+**Fonte**: post LinkedIn post-evento ("grande conferenza", "bello incontrare X"), commenti su competitor round
+**Cosa indica**: il confronto con i peer crea urgenza — il founder realizza che gli altri si muovono e lui no
+**Hook**: usare l'evento o il competitor come entry point, poi portare sul problema GTM
+
+### S15 — Investitori fanno domande scomode su CAC / ICP / ciclo di vendita
+**Score**: 20 | **Finestra ottimale**: 0-30 giorni
+**Fonte**: post LinkedIn del founder su "domande difficili degli investitori", "round in corso", menzioni di metriche
+**Cosa indica**: il founder è sotto pressione a rispondere con dati — e non ce li ha perché il sistema non esiste
+**Hook**: partire dalla domanda degli investitori come problema concreto da risolvere
 
 ---
 
