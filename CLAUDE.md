@@ -100,7 +100,8 @@ Tutte le skill sono in `_methodology/skills/`.
 | `weekly-update` | Ogni lunedì |
 | `brain-update` | Dopo ogni campagna (2-4 settimane) |
 | `preventivo` | Per generare un preventivo per un nuovo cliente |
-| `b2b-positioning-diagnostic` | Fase 1 di ogni nuovo engagement (2 settimane) |
+| `b2b-positioning-diagnostic` | Fase 1 di ogni nuovo engagement (2 settimane) — framework Dunford 5-step, post-PMF |
+| `positioning-framework-estner` | Positioning veloce e prescrittivo — framework Estner Primary + Secondary anchor, pre-PMF o early post-seed |
 | `gtm-icp-definition` | Costruire ICP strutturato per cliente |
 | `saas-homepage-analyzer` | Analisi/creazione homepage cliente |
 | `sales-deck-creator` | Deck commerciale cliente |
