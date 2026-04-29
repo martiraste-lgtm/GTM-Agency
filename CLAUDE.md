@@ -85,36 +85,45 @@ Il processo opera su 4 livelli in parallelo:
 ### Quando lavori su un cliente specifico
 - Leggi prima `_agency/context/` per il contesto del collettivo
 - Poi leggi `clients/[nome]/context/` per i dati specifici del cliente
-- Le skill in `_methodology/skills/` si usano sempre — non sono duplicate per cliente
+- Le skill globali (claude-brain) sono disponibili automaticamente — non servono path. Le skill operative del collettivo sono in `_methodology/skills/` e non vengono duplicate per cliente
 
 ### Skills disponibili
 
-Tutte le skill sono in `_methodology/skills/`.
+Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain** (`~/.claude/skills/`) e sono disponibili automaticamente — non servono path. Le skill operative sono specifiche di questo repo.
+
+**Prerequisito**: claude-brain deve essere configurato sulla tua macchina. Setup: clona `https://github.com/martiraste-lgtm/claude-brain` → `~/.claude`
+
+#### Skill globali (claude-brain — disponibili automaticamente)
 
 | Skill | Quando usarla |
 |-------|---------------|
-| `setup` | Inizio di ogni nuovo engagement cliente |
-| `account-research` | Prima di contattare un prospect |
-| `signal-to-sequence` | Segnale rilevato → campagna |
-| `icp-scoring` | Qualificare una lista di account |
-| `weekly-update` | Ogni lunedì |
-| `brain-update` | Dopo ogni campagna (2-4 settimane) |
-| `preventivo` | Per generare un preventivo per un nuovo cliente |
-| `b2b-positioning-diagnostic` | Fase 1 di ogni nuovo engagement (2 settimane) — framework Dunford 5-step, post-PMF |
-| `positioning-framework-estner` | Positioning veloce e prescrittivo — framework Estner Primary + Secondary anchor, pre-PMF o early post-seed |
+| `b2b-positioning-diagnostic` | Positioning Dunford 5-step, post-PMF — fase 1 di ogni nuovo engagement |
+| `positioning-framework-estner` | Positioning Estner Primary + Secondary anchor, pre-PMF o early post-seed |
 | `gtm-icp-definition` | Costruire ICP strutturato per cliente |
 | `saas-homepage-analyzer` | Analisi/creazione homepage cliente |
 | `sales-deck-creator` | Deck commerciale cliente |
-| `case-study-creator` | Dopo il primo risultato misurabile |
 | `okr-hybrid` | Definire KPI con il cliente (uso interno) |
-| `mkt1/marketing-strategy-setup` | Inizio engagement — orchestra tutte le skill MKT1 |
-| `mkt1/company-overview` | Fondamenta: stage, modello, audience, competitive landscape |
-| `mkt1/marketing-advantages` | Identifica i vantaggi marketing unici del business |
-| `mkt1/perceptions` | Definisce le 3-4 narrative strategiche del mercato |
-| `mkt1/channel-strategy` | Determina il channel mix giusto per stage e GTM motion |
-| `mkt1/revenue-levers` | Prioritizza dove il marketing può avere impatto adesso |
-| `mkt1/big-bets` | Progetta 1-3 campagne coordinate ad alto impatto |
-| `mkt1/gaccs` | Brief operativo per ogni campagna o iniziativa |
+| `account-research` | Brief approfondito su un prospect prima dell'outreach |
+| `icp-scoring` | Qualificare e assegnare tier A/B/C a una lista di account |
+| `signal-to-sequence` | Segnale rilevato → campagna outbound completa |
+| `case-study-creator` | Dopo il primo risultato misurabile |
+| `mkt1-marketing-strategy-setup` | Inizio engagement — orchestra tutte le skill MKT1 |
+| `mkt1-company-overview` | Fondamenta: stage, modello, audience, competitive landscape |
+| `mkt1-marketing-advantages` | Identifica i vantaggi marketing unici del business |
+| `mkt1-perceptions` | Definisce le 3-4 narrative strategiche del mercato |
+| `mkt1-channel-strategy` | Determina il channel mix giusto per stage e GTM motion |
+| `mkt1-revenue-levers` | Prioritizza dove il marketing può avere impatto adesso |
+| `mkt1-big-bets` | Progetta 1-3 campagne coordinate ad alto impatto |
+| `mkt1-gaccs` | Brief operativo per ogni campagna o iniziativa |
+
+#### Skill operative collettivo (`_methodology/skills/` — specifiche di questo repo)
+
+| Skill | Quando usarla |
+|-------|---------------|
+| `setup` | Inizio di ogni nuovo engagement cliente — popola context/ |
+| `weekly-update` | Ogni lunedì — mantiene context/ e kpi/ aggiornati |
+| `brain-update` | Dopo ogni campagna (2-4 settimane) — aggiorna knowledge/ |
+| `preventivo` | Generare preventivo per il servizio GTM Engineering del collettivo |
 
 ---
 
