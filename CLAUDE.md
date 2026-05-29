@@ -103,6 +103,7 @@ Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain**
 | `saas-homepage-analyzer` | Analisi/creazione homepage cliente |
 | `sales-deck-creator` | Deck commerciale cliente |
 | `okr-hybrid` | Definire KPI con il cliente (uso interno) |
+| `business-case-builder` | Stima/valutazione di un'opportunità in business case (metodo Tharin) — feature, iniziativa GTM o deliverable cliente |
 | `account-research` | Brief approfondito su un prospect prima dell'outreach |
 | `icp-scoring` | Qualificare e assegnare tier A/B/C a una lista di account |
 | `signal-to-sequence` | Segnale rilevato → campagna outbound completa |
