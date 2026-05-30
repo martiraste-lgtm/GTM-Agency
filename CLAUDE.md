@@ -80,7 +80,8 @@ Il processo opera su 4 livelli in parallelo:
 1. Crea `clients/client-[nome]/` con sottocartelle: `context/`, `knowledge/`, `kpi/`, `outputs/`
 2. Esegui `_methodology/skills/setup/SKILL.md` sul dominio del cliente — popola `clients/[nome]/context/` in 30 min
 3. Affina con informazioni del kick-off (vedi `_methodology/workflows/client-onboarding.md`)
-4. Opera con le skill in `_methodology/skills/` — outbound, segnali, content
+4. Fai la diagnosi plays con `_methodology/skills/gtm-plays-diagnostic/SKILL.md` — decidi quali motion attivare *prima* di costruire campagne
+5. Opera con le skill in `_methodology/skills/` — outbound, segnali, content
 
 ### Quando lavori su un cliente specifico
 - Leggi prima `_agency/context/` per il contesto del collettivo
@@ -122,6 +123,7 @@ Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain**
 | Skill | Quando usarla |
 |-------|---------------|
 | `setup` | Inizio di ogni nuovo engagement cliente — popola context/ |
+| `gtm-plays-diagnostic` | Dopo strategia/positioning, prima della prima campagna — diagnosi di quali plays/motion attivare |
 | `weekly-update` | Ogni lunedì — mantiene context/ e kpi/ aggiornati |
 | `brain-update` | Dopo ogni campagna (2-4 settimane) — aggiorna knowledge/ |
 | `preventivo` | Generare preventivo per il servizio GTM Engineering del collettivo |

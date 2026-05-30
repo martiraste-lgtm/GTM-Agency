@@ -99,6 +99,21 @@ Read skills/b2b-positioning-diagnostic/SKILL.md e facilita il positioning sprint
 
 ---
 
+## Step 4b — Diagnosi GTM plays (fine Settimana 2)
+
+Prima di costruire qualsiasi campagna, decidi *quali* plays/motion attivare per questo cliente. Non dare per scontato che sia sempre signal-based outbound via email.
+
+```
+Read skills/gtm-plays-diagnostic/SKILL.md e fai la diagnosi plays per [nome cliente]
+```
+
+La skill legge il `context/` già popolato, colma i gap (motion, stage) e produce 5-8 plays prioritizzati per questo cliente.
+
+→ I plays **signal-based** che escono da qui confluiscono nella `signals/signal-library.md` e nel routing dello Step 6 — non restano un documento isolato.
+→ I plays **product-led/expansion** (Future State) restano fuori salvo motion PLG con accesso ai dati di prodotto.
+
+---
+
 ## Step 5 — Setup infrastruttura (Settimana 2-3, in parallelo)
 
 - [ ] Registra 2-3 domini dedicati per cold email
@@ -139,6 +154,7 @@ Read skills/b2b-positioning-diagnostic/SKILL.md e facilita il positioning sprint
 - [ ] Repo forkato e rinominato
 - [ ] `context/` popolato (profile, icp, positioning, competitor, personas)
 - [ ] Positioning sprint completato
+- [ ] Diagnosi GTM plays fatta (5-8 plays scelti per il cliente)
 - [ ] Signal library creata con segnali specifici per ICP cliente
 - [ ] Infrastruttura email impostata (domini + warm-up avviato)
 - [ ] Prima sequenza costruita e lanciata
