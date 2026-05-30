@@ -17,6 +17,7 @@
 - "Come pensate di misurare il successo nei primi 3 mesi?"
 
 → Aggiorna `context/competitor-radar.md` con il nome e le prime info raccolte.
+→ Per un teardown approfondito del competitor (positioning, ads, GTM motion) prima di consolidare la radar, usa `skills/deep-research-gtm/`.
 
 ---
 

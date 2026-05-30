@@ -124,6 +124,7 @@ Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain**
 |-------|---------------|
 | `setup` | Inizio di ogni nuovo engagement cliente — popola context/ |
 | `gtm-plays-diagnostic` | Dopo strategia/positioning, prima della prima campagna — diagnosi di quali plays/motion attivare |
+| `deep-research-gtm` | Ricerca GTM rigorosa (fonti + piano + citazioni) — teardown competitor o playbook interno, inline o scaffold esterno |
 | `weekly-update` | Ogni lunedì — mantiene context/ e kpi/ aggiornati |
 | `brain-update` | Dopo ogni campagna (2-4 settimane) — aggiorna knowledge/ |
 | `preventivo` | Generare preventivo per il servizio GTM Engineering del collettivo |
