@@ -102,6 +102,7 @@ Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain**
 | `positioning-framework-estner` | Positioning Estner Primary + Secondary anchor, pre-PMF o early post-seed |
 | `gtm-icp-definition` | Costruire ICP strutturato per cliente |
 | `saas-homepage-analyzer` | Analisi/creazione homepage cliente |
+| `pricing-teardown` | Audit conversione di una pricing page (10 dimensioni: UX buyer + AI-agent readiness) |
 | `sales-deck-creator` | Deck commerciale cliente |
 | `okr-hybrid` | Definire KPI con il cliente (uso interno) |
 | `business-case-builder` | Stima/valutazione di un'opportunità in business case (metodo Tharin) — feature, iniziativa GTM o deliverable cliente |

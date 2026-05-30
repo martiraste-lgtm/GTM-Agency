@@ -83,7 +83,8 @@ Il teardown produce la lettura GTM d'insieme. Quando una dimensione richiede pro
 
 | Dimensione del competitor da approfondire | Hand-off a |
 |---|---|
-| Homepage / landing / pricing page (audit sezione per sezione) | `saas-homepage-analyzer` (Modo B — analisi) |
+| Homepage / landing (audit sezione per sezione) | `saas-homepage-analyzer` (Modo B — analisi) |
+| Pricing page (audit conversione + AI-readiness) | `pricing-teardown` |
 | Headline / H1 della loro hero | `b2b-h1-writer` (valutazione) |
 | Confronto feature testa a testa noi-vs-loro / compete page | `battlecard` / `pm-go-to-market-competitive-battlecard` |
 | Deconstruzione del loro positioning (5-step) | `b2b-positioning-diagnostic` o `positioning-framework-estner` |
