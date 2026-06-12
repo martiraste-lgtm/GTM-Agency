@@ -103,7 +103,8 @@ Le skill si dividono in due gruppi. Le skill globali vengono da **claude-brain**
 | `gtm-icp-definition` | Costruire ICP strutturato per cliente |
 | `saas-homepage-analyzer` | Analisi/creazione homepage cliente |
 | `pricing-teardown` | Audit conversione di una pricing page (10 dimensioni: UX buyer + AI-agent readiness) |
-| `sales-deck-creator` | Deck commerciale cliente |
+| `sales-deck-creator` | Deck commerciale cliente (primo meeting / pitch / asset outbound) |
+| `sales-demo-estner` | Preparare demo call con prospect già interessato — 10-step Estner + discovery SPICED + demo loop |
 | `okr-hybrid` | Definire KPI con il cliente (uso interno) |
 | `business-case-builder` | Stima/valutazione di un'opportunità in business case (metodo Tharin) — feature, iniziativa GTM o deliverable cliente |
 | `account-research` | Brief approfondito su un prospect prima dell'outreach |
